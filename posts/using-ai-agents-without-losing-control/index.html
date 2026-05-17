@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How I Use AI Agents Without Losing Control of the Codebase - David&#039;s blog</title>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <main class="page">
+    <h1 class="article-title">How I Use AI Agents Without Losing Control of the Codebase</h1>
+    <p class="article-date">May 10, 2026</p>
+    <div class="article-body">
+      <h2>The risk is drift</h2>
+      <p>AI agents can move quickly, which is both their strength and their danger. The problem is not that they write code. The problem is that they can drift away from the intent, touch unrelated files, invent abstractions, or solve a slightly different problem than the one you had.</p>
+      <p>Keeping control means designing the workflow so drift is visible early.</p>
+      <h2>Give ownership boundaries</h2>
+      <p>A good agent task has boundaries. Which files can change? What behavior should stay the same? What should be verified? If the agent knows the write area and success criteria, the work becomes easier to inspect.</p>
+      <p>This is especially important in a real codebase where unrelated changes may already exist. Scope protects both the project and the person reviewing the work.</p>
+      <h2>Make tests and screenshots part of the loop</h2>
+      <p>For backend work, tests give fast feedback. For frontend work, screenshots catch what code review may miss: overflow, blank screens, poor spacing, broken states. Agents should not just say something is done. They should produce evidence.</p>
+      <h2>Review the diff, not the story</h2>
+      <p>The explanation can be helpful, but the diff is the truth. I look for unrelated edits, large rewrites, hidden assumptions, and missing error paths. If the change is too large to review, the task was probably too large to delegate.</p>
+    </div>
+    <a class="back" href="../../">Blog</a>
+  </main>
+</body>
+</html>

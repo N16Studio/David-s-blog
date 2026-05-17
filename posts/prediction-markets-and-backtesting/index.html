@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prediction Markets and Backtesting: A Practical Framework - David&#039;s blog</title>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <main class="page">
+    <h1 class="article-title">Prediction Markets and Backtesting: A Practical Framework</h1>
+    <p class="article-date">May 10, 2026</p>
+    <div class="article-body">
+      <h2>Prediction markets are probability machines</h2>
+      <p>Prediction markets are different from ordinary price charts because the price often represents an implied probability. A contract trading at 62 cents can be read as the market assigning roughly a 62 percent chance to an outcome, ignoring fees and market structure.</p>
+      <p>That makes backtesting interesting. You are not only asking whether price went up or down. You are asking whether the market probability was mispriced relative to the eventual outcome.</p>
+      <h2>Define the signal clearly</h2>
+      <p>A useful framework starts with a clear signal. Maybe the strategy buys when the market probability differs from a model probability by more than a threshold. Maybe it trades only near resolution. Maybe it reacts to news, volume, or cross-market relationships.</p>
+      <h2>Measure calibration</h2>
+      <p>Calibration matters. If events priced around 70 percent happen roughly 70 percent of the time, the market is well calibrated at that level. A strategy needs to find where calibration breaks or where liquidity creates temporary mispricing.</p>
+      <h2>Include resolution and liquidity</h2>
+      <p>Prediction market backtests need careful handling of resolution. Outcomes must be clean, timestamps matter, and ambiguous markets can distort results. Liquidity is just as important. A theoretical edge is not useful if there is no size available at the tested price.</p>
+      <h2>Think in expected value</h2>
+      <p>The practical question is expected value after costs. If the model says an event is 60 percent likely and the market offers 50 percent, the edge looks attractive. But fees, spread, fill probability, and correlation between bets decide whether that edge survives.</p>
+    </div>
+    <a class="back" href="../../">Blog</a>
+  </main>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Biggest Mistakes in Backtesting Strategies - David&#039;s blog</title>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <main class="page">
+    <h1 class="article-title">The Biggest Mistakes in Backtesting Strategies</h1>
+    <p class="article-date">May 10, 2026</p>
+    <div class="article-body">
+      <h2>Mistaking history for proof</h2>
+      <p>The biggest mistake in backtesting is treating a good historical result as proof. A backtest is evidence, but it is weak evidence if the strategy was designed by repeatedly searching for the best-looking past pattern.</p>
+      <p>The more choices you test, the easier it becomes to find something that worked by accident.</p>
+      <h2>Data leakage</h2>
+      <p>Data leakage happens when the strategy uses information that would not have been available at the time. It can be subtle: revised data, delayed market resolution, future rankings, or signals calculated with knowledge from the full dataset.</p>
+      <p>Leakage makes a strategy look smarter than it really is. In live trading, the hidden future disappears.</p>
+      <h2>Ignoring transaction costs</h2>
+      <p>Many strategies look profitable before fees, spread, slippage, and market impact. The more frequently a strategy trades, the more costs matter. A small edge can vanish once execution becomes realistic.</p>
+      <h2>Unrealistic fills</h2>
+      <p>A backtest may assume trades happen at clean prices. Real orders wait, slip, partially fill, or move the market. In prediction markets or small markets, liquidity can be the entire problem.</p>
+      <p>The goal is not to make the backtest beautiful. The goal is to make it honest enough to be useful.</p>
+    </div>
+    <a class="back" href="../../">Blog</a>
+  </main>
+</body>
+</html>

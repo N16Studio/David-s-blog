@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why Evaluation Matters More Than Training - David&#039;s blog</title>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <main class="page">
+    <h1 class="article-title">Why Evaluation Matters More Than Training</h1>
+    <p class="article-date">May 10, 2026</p>
+    <div class="article-body">
+      <h2>Training is not proof</h2>
+      <p>It is tempting to think that more training automatically means a better AI system. But training only changes the model. Evaluation tells you whether the change helped. Without evaluation, every improvement is just a feeling.</p>
+      <p>This matters because AI systems often improve in visible ways while getting worse in hidden ways. A model may sound more confident, answer faster, or produce nicer formatting while making more factual mistakes in edge cases.</p>
+      <h2>Good evaluation starts with tasks</h2>
+      <p>A useful evaluation is built from real tasks. If the model is supposed to answer customer questions, test it on real customer questions. If it writes code, test whether the code runs. If it extracts data, compare the output against known correct answers.</p>
+      <p>The best evaluation sets contain ordinary examples, difficult examples, and failure cases. Ordinary examples show baseline quality. Difficult examples reveal limits. Failure cases prevent regressions when the system changes.</p>
+      <h2>Benchmarks are not enough</h2>
+      <p>Public benchmarks are useful, but they rarely match your exact product. A model can perform well on a benchmark and still fail in your workflow because your users ask different questions, your documents are messy, or your tolerance for errors is lower.</p>
+      <p>Evaluation creates compounding knowledge. Every failure becomes a better test. Every better test makes future changes safer. Training may make a model stronger, but evaluation makes the team smarter.</p>
+    </div>
+    <a class="back" href="../../">Blog</a>
+  </main>
+</body>
+</html>

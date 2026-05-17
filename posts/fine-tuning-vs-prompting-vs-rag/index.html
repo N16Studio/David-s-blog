@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fine-Tuning vs Prompting vs RAG - David&#039;s blog</title>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <main class="page">
+    <h1 class="article-title">Fine-Tuning vs Prompting vs RAG</h1>
+    <p class="article-date">May 10, 2026</p>
+    <div class="article-body">
+      <h2>Three different tools</h2>
+      <p>Prompting, retrieval, and fine-tuning are often discussed as if they are competing solutions. They solve different problems. Prompting tells the model how to behave in the moment. Retrieval gives the model external information. Fine-tuning changes the model behavior more permanently by training it on examples.</p>
+      <p>The mistake is reaching for the most complex option first. Many AI product problems can be solved with clearer prompts, better context, and stronger evaluation before any fine-tuning is needed.</p>
+      <h2>When prompting is enough</h2>
+      <p>Prompting works best when the model already knows how to do the task but needs instructions about format, tone, constraints, or process. If you want concise answers, a specific JSON shape, a friendly voice, or a step-by-step checklist, a good prompt may be enough.</p>
+      <h2>When RAG is the right answer</h2>
+      <p>RAG, or retrieval augmented generation, is useful when the model needs facts from your documents, database, policies, or product knowledge. Instead of expecting the model to memorize everything, you retrieve relevant material and pass it into the context window.</p>
+      <p>RAG is usually better than fine-tuning for changing knowledge. If your prices, docs, or rules change often, retrieval lets you update the source instead of retraining the model.</p>
+      <h2>When fine-tuning makes sense</h2>
+      <p>Fine-tuning is useful when you need consistent behavior across many similar tasks: style, classification, extraction, domain-specific decisions, or a workflow that is hard to describe in every prompt. The practical sequence is simple: prompt first, add retrieval when facts matter, and fine-tune when repeated behavior still does not meet the standard.</p>
+    </div>
+    <a class="back" href="../../">Blog</a>
+  </main>
+</body>
+</html>

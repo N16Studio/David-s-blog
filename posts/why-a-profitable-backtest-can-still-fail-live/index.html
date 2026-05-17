@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why a Profitable Backtest Can Still Fail Live - David&#039;s blog</title>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <main class="page">
+    <h1 class="article-title">Why a Profitable Backtest Can Still Fail Live</h1>
+    <p class="article-date">May 10, 2026</p>
+    <div class="article-body">
+      <h2>Live trading changes the problem</h2>
+      <p>A profitable backtest is encouraging, but live trading is a different environment. In a backtest, the rules are applied to completed history. In live trading, the data arrives unevenly, orders compete with other participants, and every decision happens under uncertainty.</p>
+      <p>The strategy may be the same, but the conditions are not.</p>
+      <h2>Regime change</h2>
+      <p>A strategy can work because the past contained a specific market regime. If volatility, liquidity, interest rates, competition, or participant behavior changes, the same rules may stop working. The backtest did not lie; the environment changed.</p>
+      <h2>Execution friction</h2>
+      <p>Backtests often simplify execution. They assume fills, ignore queue position, or underestimate slippage. Live trading reveals the cost of actually entering and exiting. A strategy with a small edge can fail because the edge was smaller than the friction.</p>
+      <h2>Psychology and operations</h2>
+      <p>Live strategies also fail because humans intervene. A drawdown feels different when it is real. A trade that was automatic in the backtest becomes questionable when money is on the line. Operational issues matter too: outages, data delays, missed orders, and position limits.</p>
+      <h2>The safer path</h2>
+      <p>A good backtest should lead to small live experiments, not immediate confidence. Trade small, compare live fills against simulated fills, track drift, and assume the first version is partly wrong. The goal is not to prove the backtest right. The goal is to learn whether the edge survives contact with reality.</p>
+    </div>
+    <a class="back" href="../../">Blog</a>
+  </main>
+</body>
+</html>

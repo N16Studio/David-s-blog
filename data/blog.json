@@ -1,0 +1,968 @@
+{
+  "siteTitle": "David's blog",
+  "categories": [
+    "Construction technology",
+    "Lean startup",
+    "Customer acquisition",
+    "Inside Sales",
+    "Customer success",
+    "AI training",
+    "Development with Claude",
+    "Backtesting"
+  ],
+  "articles": [
+    {
+      "slug": "what-is-ultra-rapid-construction",
+      "title": "What Is Ultra-Rapid Construction?",
+      "date": "May 5, 2026",
+      "body": [
+        {
+          "type": "h2",
+          "text": "What Is Ultra-Rapid Construction?"
+        },
+        {
+          "type": "p",
+          "text": "I have been fascinated by the topic of ultra-rapid construction for over 15 years. There is a certain beauty in seeing a livable space erected in less than one or two days."
+        },
+        {
+          "type": "p",
+          "text": "Now for over 10 years, I have been extremely curious about ultra-rapid construction.  Ultra-rapid construction is a building approach focused on reducing the total time from design decision to usable space. However, I noticed that when I think about rapid construction, it always comes down to few things: construction in the closed off space with good tools"
+        },
+        {
+          "type": "p",
+          "text": "It is not only about fast workers. It is about removing uncertainty before work reaches the site."
+        },
+        {
+          "type": "h2",
+          "text": "What Is Not Ultra-Rapid Construction?"
+        },
+        {
+          "type": "p",
+          "text": "Ultra-rapid construction is not off-site construction. Whenever I read about rapid construction, it is often compared to off-site or panelized construction. While both methods are great and, in my opinion, should be used more often, they are not really ultra-rapid, since they require an immense amount of upfront capital, skilled labor, space, and often fairly sophisticated logistics."
+        },
+        {
+          "type": "p",
+          "text": "Ultra-rapid construction is not a normal project with a compressed schedule. If drawings are incomplete, materials are adjusted on site, crews are waiting for decisions, or every connection needs improvisation, the project is not truly rapid."
+        },
+        {
+          "type": "p",
+          "text": "It is also not automatically prefabrication. Prefabricated parts can still slow a project if they are too heavy, inaccurate, difficult to connect, or poorly sequenced."
+        },
+        {
+          "type": "h2",
+          "text": "Factory Work vs Site Work"
+        },
+        {
+          "type": "p",
+          "text": "Factory work is controlled. Cutting, drilling, welding, fastening, treatment, quality checks, and packing can happen with better tools and less weather risk."
+        },
+        {
+          "type": "p",
+          "text": "Site work is exposed to more uncertainty: access, weather, storage, lifting, crew coordination, and measurement errors. Ultra-rapid construction moves as much complexity as possible into the factory so the site becomes a place for assembly."
+        },
+        {
+          "type": "h2",
+          "text": "Key Parameters for Ultra-Rapid Construction"
+        },
+        {
+          "type": "p",
+          "text": "The key parameters are dimensions, weight, toolset, and measurement accuracy. These decide whether a system is fast in real conditions or only fast in theory."
+        },
+        {
+          "type": "h2",
+          "text": "Dimensions: Standardization and Repeatability"
+        },
+        {
+          "type": "p",
+          "text": "Standard dimensions reduce design time, production errors, and installation decisions. When panels, frames, modules, and connection points follow a repeatable grid, the project becomes easier to manufacture and easier to assemble."
+        },
+        {
+          "type": "p",
+          "text": "Customization can still exist, but the hidden structure should stay predictable."
+        },
+        {
+          "type": "h2",
+          "text": "Weight: Transport, Lifting, and Assembly Speed"
+        },
+        {
+          "type": "p",
+          "text": "Weight affects transport, crane choice, crew size, foundation loads, and the speed of positioning each element. Lighter systems can often move faster, especially on tight sites or projects with limited lifting capacity."
+        },
+        {
+          "type": "p",
+          "text": "A heavy component can still be efficient, but only if its size and lifting sequence reduce total site work."
+        },
+        {
+          "type": "h2",
+          "text": "Toolset: What the Crew Needs on Site"
+        },
+        {
+          "type": "p",
+          "text": "A rapid system should use a simple and repeatable toolset. If installation requires rare equipment, custom welding, or highly specialized labor at every step, the system becomes harder to scale."
+        },
+        {
+          "type": "p",
+          "text": "The best site toolset is predictable: lift, align, fasten, check, and repeat."
+        },
+        {
+          "type": "h2",
+          "text": "Measurement Accuracy: Tolerances, Fit, and Rework"
+        },
+        {
+          "type": "p",
+          "text": "Speed depends on parts fitting the first time. Poor measurement accuracy creates gaps, misalignment, rework, and delays. A rapid system must be precise, but it also needs tolerances that work under real site conditions."
+        },
+        {
+          "type": "p",
+          "text": "Accuracy is not only about production. It includes surveying, foundations, connection details, and the order in which elements are installed."
+        },
+        {
+          "type": "p",
+          "text": "Wood is light, workable, and often fast to handle. It can be cut, fastened, and adjusted with simpler tools than many metal systems. Panelized wood, modular timber, and mass timber can reduce crane loads and simplify assembly."
+        },
+        {
+          "type": "p",
+          "text": "Wood can also support lower-carbon construction goals when it is responsibly sourced and designed for durability."
+        },
+        {
+          "type": "p",
+          "text": "Metal is strong, precise, and repeatable. Steel and light-gauge metal systems can be manufactured with tight tolerances and used across many repeated units. Metal can perform well where long spans, thin profiles, durability, or high structural loads matter."
+        },
+        {
+          "type": "p",
+          "text": "Metal systems can also scale efficiently when connections are standardized and site work is reduced to bolting or fastening prepared components."
+        },
+        {
+          "type": "p",
+          "text": "Wood often wins when light weight, easy handling, and simple site adjustment are priorities. Metal often wins when precision, repeatability, long spans, and dimensional stability are more important."
+        },
+        {
+          "type": "p",
+          "text": "The fastest answer may be hybrid: wood where speed and weight matter, metal where strength and accuracy matter."
+        },
+        {
+          "type": "p",
+          "text": "The right system depends on building type, local labor, fire requirements, transport distance, crane access, climate, cost, carbon goals, and regulatory approval."
+        },
+        {
+          "type": "p",
+          "text": "Ultra-rapid construction is not a material choice first. It is a system choice. The best method is the one that reduces decisions, reduces rework, and turns the site into a predictable assembly process."
+        }
+      ],
+      "topics": [
+        "Construction technology"
+      ],
+      "aliases": [
+        "ultra-rapid-construction-methods-wood-vs-metal"
+      ]
+    },
+    {
+      "slug": "wood-vs-metal-in-ultra-rapid-construction",
+      "title": "Wood vs Metal in Ultra-Rapid Construction",
+      "date": "May 15, 2026",
+      "topics": [
+        "Construction technology"
+      ],
+      "body": [
+        {
+          "type": "h2",
+          "text": "The comparison is not about material alone"
+        },
+        {
+          "type": "p",
+          "text": "Wood and metal can both support fast construction, but neither material is automatically ultra-rapid. The real question is how each material affects handling, connection details, tool requirements, measurement accuracy, and the number of decisions left for the site crew."
+        },
+        {
+          "type": "p",
+          "text": "A material becomes fast when it reduces friction. If it is easy to move, easy to align, easy to fasten, and forgiving enough to avoid rework, it supports speed. If it requires special equipment, tight logistics, or constant correction, it slows the process down."
+        },
+        {
+          "type": "h2",
+          "text": "Where wood can move faster"
+        },
+        {
+          "type": "p",
+          "text": "Wood is usually lighter and easier to work with on site. It can often be cut, drilled, fastened, or adjusted with simpler tools. This matters in ultra-rapid construction because the site should not become a place where every mistake requires specialized labor or heavy machinery."
+        },
+        {
+          "type": "p",
+          "text": "Wood can be especially useful when the project benefits from lighter transport, smaller lifting equipment, and flexible assembly. Panelized wood, engineered timber, and simple framing systems can reduce handling complexity when dimensions are standardized."
+        },
+        {
+          "type": "h2",
+          "text": "Where metal can move faster"
+        },
+        {
+          "type": "p",
+          "text": "Metal can be extremely precise and repeatable. Steel and light-gauge metal systems can be manufactured with consistent dimensions, pre-drilled holes, and standardized connectors. That precision can reduce uncertainty when many similar parts must fit together quickly."
+        },
+        {
+          "type": "p",
+          "text": "Metal is also strong for long spans and thin profiles. If the design needs fewer supports, larger openings, or repeated structural frames, metal may reduce the number of components and simplify the overall sequence."
+        },
+        {
+          "type": "h2",
+          "text": "Weight, tools, and measurement accuracy"
+        },
+        {
+          "type": "p",
+          "text": "Wood often wins on weight and simple toolsets. Metal often wins on precision and structural repeatability. But both advantages can disappear if the system is badly designed. A wood system with too many custom cuts is not rapid. A metal system that requires complicated welding on site is not rapid either."
+        },
+        {
+          "type": "p",
+          "text": "The best comparison should look at the whole process: how parts are measured, how they arrive, how they are lifted, what tools the crew needs, and how much rework happens when conditions are imperfect."
+        },
+        {
+          "type": "h2",
+          "text": "The practical answer may be hybrid"
+        },
+        {
+          "type": "p",
+          "text": "The fastest system may combine both materials. Wood can be used where lightness, speed of handling, and simple fastening matter. Metal can be used where precision, spans, strength, or repeated structural frames matter."
+        },
+        {
+          "type": "p",
+          "text": "Ultra-rapid construction should not begin with loyalty to wood or metal. It should begin with the assembly process. The right material is the one that removes the most friction from the path between design and usable space."
+        }
+      ]
+    },
+    {
+      "slug": "how-ai-models-learn",
+      "title": "How AI Models Learn: A Practical Non-Technical Explanation",
+      "date": "May 10, 2026",
+      "body": [
+        {
+          "type": "h2",
+          "text": "Learning as prediction"
+        },
+        {
+          "type": "p",
+          "text": "When people hear that an AI model learns, it is easy to imagine something close to human understanding. In practice, the process is more mechanical and more interesting. A language model is trained to predict patterns in text. It sees enormous numbers of examples and adjusts internal weights until it becomes better at guessing what is likely to come next."
+        },
+        {
+          "type": "p",
+          "text": "That does not mean the model stores every sentence like a database. It means it develops a statistical map of relationships: which words tend to appear together, which concepts are related, which structures look like code, which tone sounds formal, and which answer patterns usually satisfy a question."
+        },
+        {
+          "type": "h2",
+          "text": "Tokens, patterns, and compression"
+        },
+        {
+          "type": "p",
+          "text": "Models break text into tokens, which may be whole words, parts of words, punctuation, or fragments. Training is partly a compression problem: how can the model represent enough about language and knowledge to predict useful continuations without copying every source sentence?"
+        },
+        {
+          "type": "p",
+          "text": "The surprising result is that prediction forces the model to learn useful structure. To predict code, it needs some representation of syntax. To answer a construction question, it needs signals about materials, constraints, and terminology."
+        },
+        {
+          "type": "h2",
+          "text": "Why it sometimes looks smart"
+        },
+        {
+          "type": "p",
+          "text": "A model can look intelligent because language contains a lot of hidden structure. If it can follow that structure well, it can produce answers that feel reasoned. But the model is still vulnerable. It may generate a confident answer when the pattern is familiar but the fact is wrong."
+        },
+        {
+          "type": "p",
+          "text": "This is why AI needs evaluation, context, and correction. The model is powerful, but it is not a substitute for judgment. It is a pattern engine that becomes useful when paired with a clear task and a human who checks the result."
+        }
+      ],
+      "topics": [
+        "AI training"
+      ]
+    },
+    {
+      "slug": "synthetic-data-when-ai-trains-ai",
+      "title": "Synthetic Data: When AI Trains AI",
+      "date": "May 10, 2026",
+      "body": [
+        {
+          "type": "h2",
+          "text": "What synthetic data means"
+        },
+        {
+          "type": "p",
+          "text": "Synthetic data is data generated by a system rather than collected directly from the real world. In AI training, it often means using one model to create examples for another model. Those examples might be questions and answers, code tasks, reasoning traces, simulated customer conversations, or labeled cases that would be expensive to collect manually."
+        },
+        {
+          "type": "p",
+          "text": "The attraction is obvious. Real data can be limited, private, messy, biased, or expensive. Synthetic data can be generated at scale and targeted toward gaps in the model. If the model struggles with a certain kind of math, code review, or instruction following, synthetic examples can focus on that weakness."
+        },
+        {
+          "type": "h2",
+          "text": "Where it helps"
+        },
+        {
+          "type": "p",
+          "text": "Synthetic data is useful when the desired behavior is clear and easy to verify. Code problems, formatting tasks, classification examples, and structured reasoning exercises can work well because wrong answers are easier to detect. It can also help create rare cases that do not appear often in natural data."
+        },
+        {
+          "type": "p",
+          "text": "For companies, synthetic data can reduce privacy risk. Instead of training on raw customer records, they can generate realistic but non-identifying examples that preserve the shape of a workflow without exposing real people."
+        },
+        {
+          "type": "h2",
+          "text": "Where it becomes dangerous"
+        },
+        {
+          "type": "p",
+          "text": "The risk is that synthetic data can amplify the mistakes of the model that produced it. If the generator is shallow, biased, or repetitive, the training data may look clean while quietly reducing diversity and realism. A model trained too heavily on generated text can become fluent but brittle."
+        },
+        {
+          "type": "p",
+          "text": "Synthetic data is not a shortcut around quality. It is a production method. Used carefully, it can fill gaps and accelerate training. Used carelessly, it can create a model that learns the style of intelligence without the substance."
+        }
+      ],
+      "topics": [
+        "AI training"
+      ]
+    },
+    {
+      "slug": "fine-tuning-vs-prompting-vs-rag",
+      "title": "Fine-Tuning vs Prompting vs RAG",
+      "date": "May 10, 2026",
+      "body": [
+        {
+          "type": "h2",
+          "text": "Three different tools"
+        },
+        {
+          "type": "p",
+          "text": "Prompting, retrieval, and fine-tuning are often discussed as if they are competing solutions. They solve different problems. Prompting tells the model how to behave in the moment. Retrieval gives the model external information. Fine-tuning changes the model behavior more permanently by training it on examples."
+        },
+        {
+          "type": "p",
+          "text": "The mistake is reaching for the most complex option first. Many AI product problems can be solved with clearer prompts, better context, and stronger evaluation before any fine-tuning is needed."
+        },
+        {
+          "type": "h2",
+          "text": "When prompting is enough"
+        },
+        {
+          "type": "p",
+          "text": "Prompting works best when the model already knows how to do the task but needs instructions about format, tone, constraints, or process. If you want concise answers, a specific JSON shape, a friendly voice, or a step-by-step checklist, a good prompt may be enough."
+        },
+        {
+          "type": "h2",
+          "text": "When RAG is the right answer"
+        },
+        {
+          "type": "p",
+          "text": "RAG, or retrieval augmented generation, is useful when the model needs facts from your documents, database, policies, or product knowledge. Instead of expecting the model to memorize everything, you retrieve relevant material and pass it into the context window."
+        },
+        {
+          "type": "p",
+          "text": "RAG is usually better than fine-tuning for changing knowledge. If your prices, docs, or rules change often, retrieval lets you update the source instead of retraining the model."
+        },
+        {
+          "type": "h2",
+          "text": "When fine-tuning makes sense"
+        },
+        {
+          "type": "p",
+          "text": "Fine-tuning is useful when you need consistent behavior across many similar tasks: style, classification, extraction, domain-specific decisions, or a workflow that is hard to describe in every prompt. The practical sequence is simple: prompt first, add retrieval when facts matter, and fine-tune when repeated behavior still does not meet the standard."
+        }
+      ],
+      "topics": [
+        "AI training"
+      ]
+    },
+    {
+      "slug": "why-evaluation-matters-more-than-training",
+      "title": "Why Evaluation Matters More Than Training",
+      "date": "May 10, 2026",
+      "body": [
+        {
+          "type": "h2",
+          "text": "Training is not proof"
+        },
+        {
+          "type": "p",
+          "text": "It is tempting to think that more training automatically means a better AI system. But training only changes the model. Evaluation tells you whether the change helped. Without evaluation, every improvement is just a feeling."
+        },
+        {
+          "type": "p",
+          "text": "This matters because AI systems often improve in visible ways while getting worse in hidden ways. A model may sound more confident, answer faster, or produce nicer formatting while making more factual mistakes in edge cases."
+        },
+        {
+          "type": "h2",
+          "text": "Good evaluation starts with tasks"
+        },
+        {
+          "type": "p",
+          "text": "A useful evaluation is built from real tasks. If the model is supposed to answer customer questions, test it on real customer questions. If it writes code, test whether the code runs. If it extracts data, compare the output against known correct answers."
+        },
+        {
+          "type": "p",
+          "text": "The best evaluation sets contain ordinary examples, difficult examples, and failure cases. Ordinary examples show baseline quality. Difficult examples reveal limits. Failure cases prevent regressions when the system changes."
+        },
+        {
+          "type": "h2",
+          "text": "Benchmarks are not enough"
+        },
+        {
+          "type": "p",
+          "text": "Public benchmarks are useful, but they rarely match your exact product. A model can perform well on a benchmark and still fail in your workflow because your users ask different questions, your documents are messy, or your tolerance for errors is lower."
+        },
+        {
+          "type": "p",
+          "text": "Evaluation creates compounding knowledge. Every failure becomes a better test. Every better test makes future changes safer. Training may make a model stronger, but evaluation makes the team smarter."
+        }
+      ],
+      "topics": [
+        "AI training"
+      ]
+    },
+    {
+      "slug": "off-site-construction-is-not-ultra-rapid-construction",
+      "title": "Off-Site Construction Is Not the Same as Ultra-Rapid Construction",
+      "date": "May 10, 2026",
+      "body": [
+        {
+          "type": "h2",
+          "text": "The common confusion"
+        },
+        {
+          "type": "p",
+          "text": "Rapid construction is often discussed through off-site construction, panelized systems, and modular buildings. These methods can be excellent. They can improve quality, reduce weather exposure, and shift work into controlled environments. But they are not automatically ultra-rapid."
+        },
+        {
+          "type": "p",
+          "text": "The difference is important. Off-site construction describes where work happens. Ultra-rapid construction describes how quickly a usable building can be delivered with minimal friction, capital burden, and site uncertainty."
+        },
+        {
+          "type": "h2",
+          "text": "The capital problem"
+        },
+        {
+          "type": "p",
+          "text": "A factory-based construction system usually needs serious upfront investment. It may require production space, machinery, trained teams, storage, transport planning, and a steady pipeline of projects. Without enough volume, the factory itself becomes a heavy asset that must be fed."
+        },
+        {
+          "type": "p",
+          "text": "That does not make off-site construction bad. It means the speed comes with conditions. A method that is fast only after major setup may not be ultra-rapid for smaller builders or one-off projects."
+        },
+        {
+          "type": "h2",
+          "text": "The logistics problem"
+        },
+        {
+          "type": "p",
+          "text": "Large panels and modules have to move through the real world. Roads have width limits. Trucks have weight limits. Sites have limited storage. Cranes have schedules. If a system depends on perfect logistics, it may be efficient but fragile."
+        },
+        {
+          "type": "p",
+          "text": "Off-site construction is one possible ingredient in ultra-rapid construction, not the definition of it. A rapid system can use factory work, but it must also be light enough, simple enough, and tolerant enough to move quickly."
+        }
+      ],
+      "topics": [
+        "Construction technology"
+      ]
+    },
+    {
+      "slug": "the-four-parameters-of-fast-construction",
+      "title": "The Four Parameters of Fast Construction",
+      "date": "May 10, 2026",
+      "body": [
+        {
+          "type": "h2",
+          "text": "Speed has physical constraints"
+        },
+        {
+          "type": "p",
+          "text": "Construction speed is often described in abstract words: productivity, efficiency, innovation. But on site, speed is physical. A crew has to lift, align, measure, fasten, cut, and check real components. The fastest method is the one that makes those actions simple and repeatable."
+        },
+        {
+          "type": "p",
+          "text": "Four parameters matter again and again: dimensions, weight, toolset, and measurement accuracy. If any one of them is wrong, the system slows down."
+        },
+        {
+          "type": "h2",
+          "text": "Dimensions"
+        },
+        {
+          "type": "p",
+          "text": "Dimensions determine whether work is repeatable. A standard grid allows parts to be prepared in advance and installed with fewer decisions. A custom dimension may look harmless in design, but every variation can create a new drawing, a new cut, a new check, and a new opportunity for error."
+        },
+        {
+          "type": "h2",
+          "text": "Weight"
+        },
+        {
+          "type": "p",
+          "text": "Weight determines handling. A lighter element may be lifted by smaller equipment, carried by fewer workers, or placed with less waiting time. A heavier element may reduce the number of pieces, but it can also create dependence on crane availability, transport permits, and stronger foundations."
+        },
+        {
+          "type": "h2",
+          "text": "Toolset"
+        },
+        {
+          "type": "p",
+          "text": "The required toolset determines scalability. If every connection needs a specialist, the method becomes hard to repeat. A fast system uses common tools, clear steps, and connections that can be checked quickly."
+        },
+        {
+          "type": "h2",
+          "text": "Measurement accuracy"
+        },
+        {
+          "type": "p",
+          "text": "Measurement accuracy determines rework. A component that almost fits is not fast. A system needs tolerances that match real site conditions, because every unexpected adjustment destroys the planned rhythm."
+        }
+      ],
+      "topics": [
+        "Construction technology"
+      ]
+    },
+    {
+      "slug": "why-construction-speed-depends-on-decisions",
+      "title": "Why Construction Speed Depends on Decisions, Not Just Materials",
+      "date": "May 10, 2026",
+      "body": [
+        {
+          "type": "h2",
+          "text": "Materials do not build alone"
+        },
+        {
+          "type": "p",
+          "text": "It is easy to compare construction methods by material. Wood is light. Steel is precise. Concrete is massive. Panels are fast. Modules are complete. These comparisons are useful, but they miss the deeper issue: construction slows down when decisions are still unresolved."
+        },
+        {
+          "type": "p",
+          "text": "A fast material can become slow if every connection needs discussion. A slower material can become fast if the sequence is clear and the details are repeatable."
+        },
+        {
+          "type": "h2",
+          "text": "The cost of unresolved decisions"
+        },
+        {
+          "type": "p",
+          "text": "Every unresolved decision becomes site friction. The crew waits for clarification. The supervisor calls the designer. A measurement is checked again. A component is modified. A subcontractor reschedules. None of these moments look dramatic alone, but together they turn a planned process into a negotiation."
+        },
+        {
+          "type": "p",
+          "text": "Ultra-rapid construction should move decisions earlier. The site should not be the place where basic questions are solved. It should be the place where already-solved details are assembled."
+        },
+        {
+          "type": "h2",
+          "text": "Standardization as decision reduction"
+        },
+        {
+          "type": "p",
+          "text": "Standardization is powerful because it removes repeated decisions. A standard opening size, connector, panel width, or fastener pattern lets the team reuse knowledge. The first installation teaches the second. The second improves the third."
+        },
+        {
+          "type": "p",
+          "text": "Construction speed is not only how fast a worker can move. It is how few times the project forces people to stop and decide what should have been decided already."
+        }
+      ],
+      "topics": [
+        "Construction technology"
+      ]
+    },
+    {
+      "slug": "panelized-modular-and-site-built",
+      "title": "Panelized, Modular, and Site-Built: A Clear Comparison",
+      "date": "May 10, 2026",
+      "body": [
+        {
+          "type": "h2",
+          "text": "Three different approaches"
+        },
+        {
+          "type": "p",
+          "text": "Panelized, modular, and site-built construction are often grouped together in broad conversations about faster building. They are not the same. Each approach moves a different amount of work away from the site, and each creates different constraints."
+        },
+        {
+          "type": "p",
+          "text": "Understanding the difference matters because the best method depends on the project, not on a slogan."
+        },
+        {
+          "type": "h2",
+          "text": "Panelized construction"
+        },
+        {
+          "type": "p",
+          "text": "Panelized construction uses prepared wall, floor, roof, or facade panels. The panels may include framing, sheathing, insulation, openings, or services, depending on the system. The site still needs assembly, alignment, sealing, and coordination with other trades."
+        },
+        {
+          "type": "h2",
+          "text": "Modular construction"
+        },
+        {
+          "type": "p",
+          "text": "Modular construction uses three-dimensional units built partly or almost completely in a factory. A module may include walls, floors, ceilings, finishes, plumbing, and electrical work. This can dramatically reduce site work."
+        },
+        {
+          "type": "p",
+          "text": "The tradeoff is logistics. Modules are large, heavy, and sensitive to transport and lifting constraints. They can be very efficient when repetition is high and the supply chain is well organized."
+        },
+        {
+          "type": "h2",
+          "text": "Site-built construction"
+        },
+        {
+          "type": "p",
+          "text": "Site-built construction keeps most work on site. It is flexible and familiar, but exposed to weather, labor variation, sequencing conflicts, and measurement mistakes. It may be slower, but it can adapt more easily when projects are unique."
+        }
+      ],
+      "topics": [
+        "Construction technology"
+      ]
+    },
+    {
+      "slug": "building-software-with-claude",
+      "title": "Building Software With Claude: What Actually Works",
+      "date": "May 10, 2026",
+      "body": [
+        {
+          "type": "h2",
+          "text": "Start with a real surface"
+        },
+        {
+          "type": "p",
+          "text": "Claude is most useful in software development when the task has a real surface: a file, a failing test, a visible page, an API route, a data structure, or a specific user flow. Vague requests produce vague work. Concrete requests give the model something to inspect, change, and verify."
+        },
+        {
+          "type": "p",
+          "text": "The best sessions feel like collaboration around evidence. You describe the goal, Claude reads the code, makes a scoped change, and then checks the result. The loop matters more than the first answer."
+        },
+        {
+          "type": "h2",
+          "text": "Small tasks beat giant prompts"
+        },
+        {
+          "type": "p",
+          "text": "Large prompts can be useful for context, but implementation works better in small steps. Ask for one behavior, one page, one refactor, or one bug fix. When the scope is narrow, the model can keep more of the relevant code in mind and make fewer accidental changes."
+        },
+        {
+          "type": "h2",
+          "text": "Use it for thinking too"
+        },
+        {
+          "type": "p",
+          "text": "Claude is not only for writing code. It can compare approaches, name tradeoffs, explain unfamiliar files, draft tests, and spot missing cases. Sometimes the most valuable output is not a patch but a clearer model of the problem."
+        },
+        {
+          "type": "h2",
+          "text": "Verification is the discipline"
+        },
+        {
+          "type": "p",
+          "text": "The danger of AI coding is plausible completion. The code looks right, the explanation sounds right, and the bug remains. Every useful workflow needs verification: run the tests, open the page, inspect the diff, check the route, reproduce the failure."
+        }
+      ],
+      "topics": [
+        "Development with Claude"
+      ]
+    },
+    {
+      "slug": "using-ai-agents-without-losing-control",
+      "title": "How I Use AI Agents Without Losing Control of the Codebase",
+      "date": "May 10, 2026",
+      "body": [
+        {
+          "type": "h2",
+          "text": "The risk is drift"
+        },
+        {
+          "type": "p",
+          "text": "AI agents can move quickly, which is both their strength and their danger. The problem is not that they write code. The problem is that they can drift away from the intent, touch unrelated files, invent abstractions, or solve a slightly different problem than the one you had."
+        },
+        {
+          "type": "p",
+          "text": "Keeping control means designing the workflow so drift is visible early."
+        },
+        {
+          "type": "h2",
+          "text": "Give ownership boundaries"
+        },
+        {
+          "type": "p",
+          "text": "A good agent task has boundaries. Which files can change? What behavior should stay the same? What should be verified? If the agent knows the write area and success criteria, the work becomes easier to inspect."
+        },
+        {
+          "type": "p",
+          "text": "This is especially important in a real codebase where unrelated changes may already exist. Scope protects both the project and the person reviewing the work."
+        },
+        {
+          "type": "h2",
+          "text": "Make tests and screenshots part of the loop"
+        },
+        {
+          "type": "p",
+          "text": "For backend work, tests give fast feedback. For frontend work, screenshots catch what code review may miss: overflow, blank screens, poor spacing, broken states. Agents should not just say something is done. They should produce evidence."
+        },
+        {
+          "type": "h2",
+          "text": "Review the diff, not the story"
+        },
+        {
+          "type": "p",
+          "text": "The explanation can be helpful, but the diff is the truth. I look for unrelated edits, large rewrites, hidden assumptions, and missing error paths. If the change is too large to review, the task was probably too large to delegate."
+        }
+      ],
+      "topics": [
+        "Development with Claude"
+      ]
+    },
+    {
+      "slug": "prompting-for-software-development",
+      "title": "Prompting for Software Development: Less Magic, More Context",
+      "date": "May 10, 2026",
+      "body": [
+        {
+          "type": "h2",
+          "text": "Good prompts are not spells"
+        },
+        {
+          "type": "p",
+          "text": "Prompting for software development is often treated like magic wording. The better framing is context design. The model needs to know what you are building, what matters, what should not change, and how success will be checked."
+        },
+        {
+          "type": "p",
+          "text": "A clever phrase is less useful than a clear task with constraints."
+        },
+        {
+          "type": "h2",
+          "text": "Describe the desired behavior"
+        },
+        {
+          "type": "p",
+          "text": "Instead of saying fix the page, describe what the page should do. Which route? Which user action? Which state is wrong? What should happen after the change? Behavioral prompts create better code because they point toward outcomes, not just files."
+        },
+        {
+          "type": "h2",
+          "text": "Include constraints"
+        },
+        {
+          "type": "p",
+          "text": "Constraints prevent accidental creativity. If a design should stay minimal, say so. If no new dependency should be added, say so. If existing APIs must be preserved, say so. The model can follow constraints, but it cannot respect constraints it never sees."
+        },
+        {
+          "type": "h2",
+          "text": "Ask for verification"
+        },
+        {
+          "type": "p",
+          "text": "A strong prompt asks for proof. Run the relevant test. Check the page. Confirm the route returns 200. Inspect the JSON. Verification turns a coding assistant from a text generator into part of an engineering workflow."
+        }
+      ],
+      "topics": [
+        "Development with Claude"
+      ]
+    },
+    {
+      "slug": "what-backtesting-can-and-cannot-tell-you",
+      "title": "What Backtesting Can and Cannot Tell You",
+      "date": "May 10, 2026",
+      "body": [
+        {
+          "type": "h2",
+          "text": "A backtest is a historical simulation"
+        },
+        {
+          "type": "p",
+          "text": "Backtesting asks a simple question: what would have happened if this strategy had been used in the past? It is a useful question, but it is not the same as asking what will happen in the future."
+        },
+        {
+          "type": "p",
+          "text": "A good backtest can reveal whether an idea has any historical structure. It can show drawdowns, volatility, sensitivity, and failure periods. It can help compare variations before risking real money."
+        },
+        {
+          "type": "h2",
+          "text": "What it can tell you"
+        },
+        {
+          "type": "p",
+          "text": "A backtest can tell you how a rule behaved under known conditions. It can show whether returns came from many small wins or a few lucky trades. It can show whether the strategy survived different market regimes or only worked during one convenient window."
+        },
+        {
+          "type": "h2",
+          "text": "What it cannot tell you"
+        },
+        {
+          "type": "p",
+          "text": "A backtest cannot prove that a strategy will work live. Markets adapt. Liquidity changes. Data quality differs. Execution is imperfect. The future does not owe the strategy the same patterns that existed in the past."
+        },
+        {
+          "type": "p",
+          "text": "It also cannot protect you from overfitting. If you test enough variations, one of them will look good by chance."
+        },
+        {
+          "type": "h2",
+          "text": "The practical use"
+        },
+        {
+          "type": "p",
+          "text": "Backtesting is best used as a filter, not a guarantee. It can eliminate weak ideas and sharpen promising ones. The next step is always live testing at small size, with realistic costs and humility about uncertainty."
+        }
+      ],
+      "topics": [
+        "Backtesting"
+      ]
+    },
+    {
+      "slug": "biggest-mistakes-in-backtesting-strategies",
+      "title": "The Biggest Mistakes in Backtesting Strategies",
+      "date": "May 10, 2026",
+      "body": [
+        {
+          "type": "h2",
+          "text": "Mistaking history for proof"
+        },
+        {
+          "type": "p",
+          "text": "The biggest mistake in backtesting is treating a good historical result as proof. A backtest is evidence, but it is weak evidence if the strategy was designed by repeatedly searching for the best-looking past pattern."
+        },
+        {
+          "type": "p",
+          "text": "The more choices you test, the easier it becomes to find something that worked by accident."
+        },
+        {
+          "type": "h2",
+          "text": "Data leakage"
+        },
+        {
+          "type": "p",
+          "text": "Data leakage happens when the strategy uses information that would not have been available at the time. It can be subtle: revised data, delayed market resolution, future rankings, or signals calculated with knowledge from the full dataset."
+        },
+        {
+          "type": "p",
+          "text": "Leakage makes a strategy look smarter than it really is. In live trading, the hidden future disappears."
+        },
+        {
+          "type": "h2",
+          "text": "Ignoring transaction costs"
+        },
+        {
+          "type": "p",
+          "text": "Many strategies look profitable before fees, spread, slippage, and market impact. The more frequently a strategy trades, the more costs matter. A small edge can vanish once execution becomes realistic."
+        },
+        {
+          "type": "h2",
+          "text": "Unrealistic fills"
+        },
+        {
+          "type": "p",
+          "text": "A backtest may assume trades happen at clean prices. Real orders wait, slip, partially fill, or move the market. In prediction markets or small markets, liquidity can be the entire problem."
+        },
+        {
+          "type": "p",
+          "text": "The goal is not to make the backtest beautiful. The goal is to make it honest enough to be useful."
+        }
+      ],
+      "topics": [
+        "Backtesting"
+      ]
+    },
+    {
+      "slug": "prediction-markets-and-backtesting",
+      "title": "Prediction Markets and Backtesting: A Practical Framework",
+      "date": "May 10, 2026",
+      "body": [
+        {
+          "type": "h2",
+          "text": "Prediction markets are probability machines"
+        },
+        {
+          "type": "p",
+          "text": "Prediction markets are different from ordinary price charts because the price often represents an implied probability. A contract trading at 62 cents can be read as the market assigning roughly a 62 percent chance to an outcome, ignoring fees and market structure."
+        },
+        {
+          "type": "p",
+          "text": "That makes backtesting interesting. You are not only asking whether price went up or down. You are asking whether the market probability was mispriced relative to the eventual outcome."
+        },
+        {
+          "type": "h2",
+          "text": "Define the signal clearly"
+        },
+        {
+          "type": "p",
+          "text": "A useful framework starts with a clear signal. Maybe the strategy buys when the market probability differs from a model probability by more than a threshold. Maybe it trades only near resolution. Maybe it reacts to news, volume, or cross-market relationships."
+        },
+        {
+          "type": "h2",
+          "text": "Measure calibration"
+        },
+        {
+          "type": "p",
+          "text": "Calibration matters. If events priced around 70 percent happen roughly 70 percent of the time, the market is well calibrated at that level. A strategy needs to find where calibration breaks or where liquidity creates temporary mispricing."
+        },
+        {
+          "type": "h2",
+          "text": "Include resolution and liquidity"
+        },
+        {
+          "type": "p",
+          "text": "Prediction market backtests need careful handling of resolution. Outcomes must be clean, timestamps matter, and ambiguous markets can distort results. Liquidity is just as important. A theoretical edge is not useful if there is no size available at the tested price."
+        },
+        {
+          "type": "h2",
+          "text": "Think in expected value"
+        },
+        {
+          "type": "p",
+          "text": "The practical question is expected value after costs. If the model says an event is 60 percent likely and the market offers 50 percent, the edge looks attractive. But fees, spread, fill probability, and correlation between bets decide whether that edge survives."
+        }
+      ],
+      "topics": [
+        "Backtesting"
+      ]
+    },
+    {
+      "slug": "why-a-profitable-backtest-can-still-fail-live",
+      "title": "Why a Profitable Backtest Can Still Fail Live",
+      "date": "May 10, 2026",
+      "body": [
+        {
+          "type": "h2",
+          "text": "Live trading changes the problem"
+        },
+        {
+          "type": "p",
+          "text": "A profitable backtest is encouraging, but live trading is a different environment. In a backtest, the rules are applied to completed history. In live trading, the data arrives unevenly, orders compete with other participants, and every decision happens under uncertainty."
+        },
+        {
+          "type": "p",
+          "text": "The strategy may be the same, but the conditions are not."
+        },
+        {
+          "type": "h2",
+          "text": "Regime change"
+        },
+        {
+          "type": "p",
+          "text": "A strategy can work because the past contained a specific market regime. If volatility, liquidity, interest rates, competition, or participant behavior changes, the same rules may stop working. The backtest did not lie; the environment changed."
+        },
+        {
+          "type": "h2",
+          "text": "Execution friction"
+        },
+        {
+          "type": "p",
+          "text": "Backtests often simplify execution. They assume fills, ignore queue position, or underestimate slippage. Live trading reveals the cost of actually entering and exiting. A strategy with a small edge can fail because the edge was smaller than the friction."
+        },
+        {
+          "type": "h2",
+          "text": "Psychology and operations"
+        },
+        {
+          "type": "p",
+          "text": "Live strategies also fail because humans intervene. A drawdown feels different when it is real. A trade that was automatic in the backtest becomes questionable when money is on the line. Operational issues matter too: outages, data delays, missed orders, and position limits."
+        },
+        {
+          "type": "h2",
+          "text": "The safer path"
+        },
+        {
+          "type": "p",
+          "text": "A good backtest should lead to small live experiments, not immediate confidence. Trade small, compare live fills against simulated fills, track drift, and assume the first version is partly wrong. The goal is not to prove the backtest right. The goal is to learn whether the edge survives contact with reality."
+        }
+      ],
+      "topics": [
+        "Backtesting"
+      ]
+    }
+  ]
+}
