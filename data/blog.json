@@ -12,6 +12,89 @@
   ],
   "articles": [
     {
+      "slug": "day-35-testing-ai-development-tools-semble",
+      "title": "Day 35: Testing AI Development Tools: Semble",
+      "date": "May 24, 2026",
+      "body": [
+        {
+          "type": "p",
+          "text": "The biggest issue with current AI development tools is that every new prompt or window starts with fresh context. That raises a practical question: how do you increase the speed of agentic context discovery?"
+        },
+        {
+          "type": "p",
+          "text": "I tested a tool called Semble and ran it against my benchmarks. TLDR: unfortunately, both token usage and speed suffered severely. I tried to rerun the test with different parameters, but it essentially failed to perform better than AI itself."
+        },
+        {
+          "type": "p",
+          "text": "I did a postmortem. The root cause looks like Claude's workflow around Semble, not just the tool itself."
+        },
+        {
+          "type": "h2",
+          "text": "Main findings"
+        },
+        {
+          "type": "p",
+          "text": "In the valid run, the no-Semble version took 138.82 seconds, used 5 Claude turns, produced 2,336 output tokens, created 19,906 cache tokens, read 70,333 cache tokens, cost $0.7689, and found the E2E test."
+        },
+        {
+          "type": "p",
+          "text": "With Semble, the run took 182.83 seconds, used 27 Claude turns, produced 5,306 output tokens, created 38,500 cache tokens, read 1,080,097 cache tokens, cost $0.9135, and missed the E2E test."
+        },
+        {
+          "type": "p",
+          "text": "So the Semble run was longer mostly because it caused a much longer agent loop: 27 turns versus 5 turns."
+        },
+        {
+          "type": "h2",
+          "text": "Direct search comparison"
+        },
+        {
+          "type": "p",
+          "text": "I also tested direct search outside Claude. A Semble search for \"more explanation cache\" with top-k 10 took about 8.09 seconds. An rg search for terms like \"more\", \"explanation\", \"generate-explanation\", \"generate-more\", \"explanation_raw\", \"moreCache\", and \"explanationCache\" took about 1.08 seconds."
+        },
+        {
+          "type": "p",
+          "text": "For this particular task, rg was faster and more complete because the query had exact repo terms such as generate-explanation, moreCache, explanation_raw, and test filenames. Semble did find useful files, but it ranked an unrelated audioCache.ts first and the E2E test only eighth."
+        },
+        {
+          "type": "h2",
+          "text": "Likely cause"
+        },
+        {
+          "type": "p",
+          "text": "Semble seems optimized for semantic code discovery when you do not know exact names. This benchmark was actually a literal identifier search task, where rg is naturally excellent."
+        },
+        {
+          "type": "p",
+          "text": "Also, telling Claude to use Semble first added overhead. It had to reason about the tool, run more searches, inspect more snippets, produce a longer answer, stay in Opus for all work instead of delegating or using a cheaper internal flow, and read a much larger cached context overall."
+        },
+        {
+          "type": "h2",
+          "text": "Harness improvement"
+        },
+        {
+          "type": "p",
+          "text": "I changed the benchmark script to use Claude stream-json output going forward. That should let me inspect actual tool and Bash events, count whether Claude really called semble search, how many times it called it, and what commands it used."
+        },
+        {
+          "type": "h2",
+          "text": "Better next test"
+        },
+        {
+          "type": "p",
+          "text": "The fairer test is a task where exact identifiers are hidden or ambiguous. For example: find where the app converts raw database flashcard fields into API-facing snake_case objects, and explain how that mapping affects audio generation and the More/Explanation endpoints."
+        },
+        {
+          "type": "p",
+          "text": "That task is more semantic and multi-hop. Semble should have a fairer chance there than on exact string search."
+        }
+      ],
+      "topics": [
+        "Development with Claude",
+        "AI training"
+      ]
+    },
+    {
       "slug": "what-is-ultra-rapid-construction",
       "title": "What Is Ultra-Rapid Construction?",
       "date": "May 5, 2026",

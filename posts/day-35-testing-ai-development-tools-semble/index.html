@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 35: Testing AI Development Tools: Semble - David&#039;s blog</title>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <main class="page">
+    <h1 class="article-title">Day 35: Testing AI Development Tools: Semble</h1>
+    <p class="article-date">May 24, 2026</p>
+    <div class="article-body">
+      <p>The biggest issue with current AI development tools is that every new prompt or window starts with fresh context. That raises a practical question: how do you increase the speed of agentic context discovery?</p>
+      <p>I tested a tool called Semble and ran it against my benchmarks. TLDR: unfortunately, both token usage and speed suffered severely. I tried to rerun the test with different parameters, but it essentially failed to perform better than AI itself.</p>
+      <p>I did a postmortem. The root cause looks like Claude&#039;s workflow around Semble, not just the tool itself.</p>
+      <h2>Main findings</h2>
+      <p>In the valid run, the no-Semble version took 138.82 seconds, used 5 Claude turns, produced 2,336 output tokens, created 19,906 cache tokens, read 70,333 cache tokens, cost $0.7689, and found the E2E test.</p>
+      <p>With Semble, the run took 182.83 seconds, used 27 Claude turns, produced 5,306 output tokens, created 38,500 cache tokens, read 1,080,097 cache tokens, cost $0.9135, and missed the E2E test.</p>
+      <p>So the Semble run was longer mostly because it caused a much longer agent loop: 27 turns versus 5 turns.</p>
+      <h2>Direct search comparison</h2>
+      <p>I also tested direct search outside Claude. A Semble search for &quot;more explanation cache&quot; with top-k 10 took about 8.09 seconds. An rg search for terms like &quot;more&quot;, &quot;explanation&quot;, &quot;generate-explanation&quot;, &quot;generate-more&quot;, &quot;explanation_raw&quot;, &quot;moreCache&quot;, and &quot;explanationCache&quot; took about 1.08 seconds.</p>
+      <p>For this particular task, rg was faster and more complete because the query had exact repo terms such as generate-explanation, moreCache, explanation_raw, and test filenames. Semble did find useful files, but it ranked an unrelated audioCache.ts first and the E2E test only eighth.</p>
+      <h2>Likely cause</h2>
+      <p>Semble seems optimized for semantic code discovery when you do not know exact names. This benchmark was actually a literal identifier search task, where rg is naturally excellent.</p>
+      <p>Also, telling Claude to use Semble first added overhead. It had to reason about the tool, run more searches, inspect more snippets, produce a longer answer, stay in Opus for all work instead of delegating or using a cheaper internal flow, and read a much larger cached context overall.</p>
+      <h2>Harness improvement</h2>
+      <p>I changed the benchmark script to use Claude stream-json output going forward. That should let me inspect actual tool and Bash events, count whether Claude really called semble search, how many times it called it, and what commands it used.</p>
+      <h2>Better next test</h2>
+      <p>The fairer test is a task where exact identifiers are hidden or ambiguous. For example: find where the app converts raw database flashcard fields into API-facing snake_case objects, and explain how that mapping affects audio generation and the More/Explanation endpoints.</p>
+      <p>That task is more semantic and multi-hop. Semble should have a fairer chance there than on exact string search.</p>
+    </div>
+    <a class="back" href="../../">Blog</a>
+  </main>
+</body>
+</html>
